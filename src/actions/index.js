@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_Key = require('../../apiKeys').OWM;
-const rootURL = `http://samples.openweathermap.org/data/2.5/forecast?appid=${API_Key}`;
+const rootURL = `http://api.openweathermap.org/data/2.5/forecast?appid=${API_Key}`;
 
 export const FETCH_WEATHER = 'FETCH_WEATHER';
 
